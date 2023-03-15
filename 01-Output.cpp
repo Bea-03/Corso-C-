@@ -36,7 +36,7 @@ int main()
   // per lavorare su R si usa .
   cout << "1./10. = " << 1 / 10. << endl;
 
-  // si può mascherare un intero da reale usando (double)
+  // si può mascherare ("casting") un intero da reale usando (double)
   cout << "1/10 = " << 1 / (double)10 << endl;
 
 }

@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "name": "C/C++: cpp compilare ed eseguire il debug del file attivo",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "lldb",
+      "preLaunchTask": "C/C++: cpp compila il file attivo"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/beatricecalderaro/Desktop/Università/Informatica",
+      "program": "/Users/beatricecalderaro/Desktop/Università/Informatica/build/Debug/outDebug"
+    }
+  ],
+  "version": "2.0.0"
+}
